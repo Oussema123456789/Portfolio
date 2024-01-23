@@ -1,0 +1,13 @@
+.profil-img{
+    border-radius: 50%;
+    width: 230px;
+    height: 220px;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+.nom{
+    display: inline-block;
+    font-size: 60px;
+    margin: 0 auto;
+}

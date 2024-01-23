@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="quiz.css">
+  <title>Quiz sur le Développement Web</title>
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>Quiz sur le Développement Web</h1>
+    <form id="quiz-form">
+      <label>1. Quelle balise est utilisée pour créer une liste non ordonnée en HTML?</label>
+      <input type="radio" name="q1" value="a"> &lt;ul&gt;
+      <input type="radio" name="q1" value="b"> &lt;ol&gt;
+      <input type="radio" name="q1" value="c"> &lt;li&gt;
+
+      <label>2. Quel langage est utilisé pour styliser les pages web?</label>
+      <input type="radio" name="q2" value="a"> JavaScript
+      <input type="radio" name="q2" value="b"> CSS
+      <input type="radio" name="q2" value="c"> PHP
+
+      <label>3. Quel attribut est utilisé pour définir le style en ligne dans HTML?</label>
+      <input type="radio" name="q3" value="a"> class
+      <input type="radio" name="q3" value="b"> style
+      <input type="radio" name="q3" value="c"> id
+
+      <label>4. Quelle balise est utilisée pour définir un lien hypertexte en HTML?</label>
+      <input type="radio" name="q4" value="a"> &lt;a&gt;
+      <input type="radio" name="q4" value="b"> &lt;p&gt;
+      <input type="radio" name="q4" value="c"> &lt;link&gt;
+
+      <label>5. Quel langage est utilisé pour le côté serveur dans le développement web?</label>
+      <input type="radio" name="q5" value="a"> JavaScript
+      <input type="radio" name="q5" value="b"> Python
+      <input type="radio" name="q5" value="c"> PHP
+
+      <label>6. Quelle méthode HTTP est utilisée pour envoyer des données depuis un formulaire?</label>
+      <input type="radio" name="q6" value="a"> GET
+      <input type="radio" name="q6" value="b"> POST
+      <input type="radio" name="q6" value="c"> PUT
+
+      <label>7. Quelle balise est utilisée pour définir un titre dans HTML?</label>
+      <input type="radio" name="q7" value="a"> &lt;title&gt;
+      <input type="radio" name="q7" value="b"> &lt;h1&gt;
+      <input type="radio" name="q7" value="c"> &lt;head&gt;
+
+      <label>8. Quel langage est utilisé pour interagir avec une base de données dans le développement web?</label>
+      <input type="radio" name="q8" value="a"> SQL
+      <input type="radio" name="q8" value="b"> Java
+      <input type="radio" name="q8" value="c"> C++
+
+      <label>9. Quel sélecteur CSS est utilisé pour cibler toutes les balises d'un type spécifique?</label>
+      <input type="radio" name="q9" value="a"> .class
+      <input type="radio" name="q9" value="b"> #id
+      <input type="radio" name="q9" value="c"> element
+
+      <label>10. Quel concept est utilisé pour rendre une page web réactive et interactive sans recharger la page entière?</label>
+      <input type="radio" name="q10" value="a"> AJAX
+      <input type="radio" name="q10" value="b"> JSON
+      <input type="radio" name="q10" value="c"> XML
+      <br>
+
+      <button type="button" onclick="verifierReponse()">Valider</button>
+    </form>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
